@@ -19,7 +19,6 @@ expected output:
 
 We will have to add this path in every script that we creat (take in mind that the file has to end in .sh) :
 <br> 
-create the file: <br>
 nano filename.sh 
 
 ```` bash 
