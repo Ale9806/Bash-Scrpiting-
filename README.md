@@ -39,5 +39,6 @@ Now we can run the program:
 ````
 ./filename.sh
 ````
+** If you modiefed your program, there is no need to give permissions again**
 
 This is the basic structure of how we create bash scrpits. Be sure to follow the tutiral to learn more. 
