@@ -15,6 +15,8 @@ which bash
 ````
 expected output:
 * /bin/bash  
+<br> 
+
 We will have to add this path in every script that we creat (take in mind that the file has to end in .sh) :
 <br> 
 create the file: <br>
