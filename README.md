@@ -1,4 +1,4 @@
-# Bash-Scrpiting-
+# Bash-Scrpiting
 A tutorial to create programs using the born again shell
 
 A shell in a Linux operating system takes input from you in the form of commands, processes it, and then gives an output. It is the interface through which a user works on the programs, commands, and scripts. A shell is accessed by a terminal which runs it.
