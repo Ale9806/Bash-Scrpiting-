@@ -19,7 +19,7 @@ expected output:
 
 We will have to add this path in every script that we creat (take in mind that the file has to end in .sh) :
 <br> 
-nano filename.sh 
+nano filename.sh  (or touch filename.sh) 
 
 ```` bash 
 #! /bin/bash
