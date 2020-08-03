@@ -34,7 +34,7 @@
 | `tail`   file-name | Show the last 10 lines of a file |
 | `grep `  file-name | Find pattern in file|
 | `cut `   file-name| Extracts a given number of characters or columns from a file|
-
+| `grep ` 'pattern'  file-name| Extracts patterns from file |
 
 
 
