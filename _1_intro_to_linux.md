@@ -27,13 +27,13 @@
 
 | Command | Description |
 | --- | --- |
-| `file ` file.txt| prints tpye of given file |
-| `cat `   file.txt| Show contents of files|
-| `wc`  file.txt | Counts the amount of characters, words, and lines in a file|
-| `head` file.txt| Show the first 10 lines of a file |
-| `tail`file.txt | Show the last 10 lines of a file |
-| `grep ` file.txt  | Find pattern in file|
-| `cut `   file.txt| Extracts a given number of characters or columns from a file|
+| `file `  file-name| prints tpye of given file |
+| `cat `   file-name| Show contents of files|
+| `wc`     file-name | Counts the amount of characters, words, and lines in a file|
+| `head`   file-name| Show the first 10 lines of a file |
+| `tail`   file-name | Show the last 10 lines of a file |
+| `grep `  file-name | Find pattern in file|
+| `cut `   file-name| Extracts a given number of characters or columns from a file|
 
 
 
