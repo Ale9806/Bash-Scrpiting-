@@ -1,5 +1,5 @@
-### BASIC LINUX COMMANDS:
-
+## BASIC LINUX COMMANDS:
+  ### Managing files and directories
 | Command | Description |
 | --- | --- |
 | `pwd   `   | Print working directory|
@@ -8,18 +8,24 @@
 | `ls -a`   | Lists all files including those hidden|
 | `cd `   | Change Directory|
 | ` echo ` | Prints messege in terminal|
-| `cat `   | Show contents of files|
-| `wc`   | Counts the amount of characters, words, and lines in a file|
-| `head` | Show the first 10 lines of a file |
-| `tail` | Show the last 10 lines of a file |
-| `grep `   | Find pattern in file|
-| `cut `   | Extracts a given number of characters or columns from a file|
 | `touch `   | Create an empty file|
 | `mkdir`   | Create new Directory|
 | `rmdir `   | emove empty Directory|
 | ` cp   ` | Coppy file |
 | ` mv`   | Move file|
 | ` chmod  ` | Change permissions of a file |
+
+## Operating with the content of files
+
+| Command | Description |
+| --- | --- |
+| `cat `   | Show contents of files|
+| `wc`   | Counts the amount of characters, words, and lines in a file|
+| `head` | Show the first 10 lines of a file |
+| `tail` | Show the last 10 lines of a file |
+| `grep `   | Find pattern in file|
+| `cut `   | Extracts a given number of characters or columns from a file|
+
 ### Chmod options: 
 <ul>
   <li> chmod -x : Make file executable </li>
