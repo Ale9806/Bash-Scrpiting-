@@ -40,4 +40,4 @@ Singals are tokens that allows us to control the behaviour of a program
 ###### SPECIAL Signal :
 kill is a specila signal, in has to be run from another therminal, therefore
 you need the Process Identifier (PID) to be able to stop the process:
-To find the PID you can use the ps comand to 
+To find the PID you can use the `ps` comand 
