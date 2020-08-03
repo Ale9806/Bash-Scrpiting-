@@ -22,3 +22,15 @@ read.py < file.txt
 ```` bash
 cat file.txt | cut -d " " -f1
 ````
+# Variables and globs
+**Variables are stored without space** <br>
+Wrong: ```variable =  "Hi there"``` <br>
+Correct:  ```variable="Hi there"```<br>
+**To call variable use '$'** <br>
+```echo $varaible``` <br>
+**OUTPUT:**  Hi there <br>
+<br>
+**GLobs are similar to wild cards**
+*  ```echo *.py```  (prints all the .py files in current directory) <br>
+*  ```echo c*.py```  (prints all the .py files that start with c in current directory) <br>
+* ```echo ????.py``` (prints all .py with 4 letters in current directory)
