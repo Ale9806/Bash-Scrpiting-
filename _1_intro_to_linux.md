@@ -61,3 +61,13 @@ To find the PID you can use the `ps` comand
 | `bg ` |causes a job that was stopped to go to the background|
 | `jobs `   |lists the jobs currently running or stopped|
 | `top`   |shows the processes currently using the most CPU time (press "q" to quit)|
+
+## ADDITIONAL COMMANDS:
+
+| Command | Description |
+| --- | --- |
+| `date` | Prints the current date|
+| `Who`  |  Prints the list of users currently logged into the computer|
+| `man` command | Shows the manual page of the given command (press "q" to quit)|
+| `uptime` | Shows how long the computer has been running |
+| `free`   file-name | Shows the amount of unused memory on the current system |
