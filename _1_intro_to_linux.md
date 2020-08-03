@@ -29,18 +29,8 @@
 </ul>
 
 
-### Linux I/O Redirection:  
-Redirection is defined as switching standard streams of data from either a user-specified source or user-specified destination. Here are the following streams used in I/O redirection:
-<ul>
-  <li> Redirection into a file using > </li>
-  <li> Append using >> </li>
-</ul>
 
-EXAMPLE: <br>
-`./STDout.py > new_file.txt` <br>
-If file does not exist it will be created, if file does exists, it will be overwritten. <br>
-If instead you want to append the output of your program use **>>** <br>
-`./STDout.py >> new_file.txt`
+
 
 ### SIGNALS:
 Singals are tokens that allows us to control the behaviour of a program
