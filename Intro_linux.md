@@ -25,7 +25,7 @@ Redirection is defined as switching standard streams of data from either a user-
 
 EXAMPLE: <br>
 `./STDout.py > new_file.txt` <br>
-If file does not exist it will be created, if exists it will be overwritten, 
+If file does not exist it will be created, if file does exists, it will be overwritten. <br>
 IF instead you want to append the output of your program use **>>** <br>
 `./STDout.py >> new_file.txt`
 
