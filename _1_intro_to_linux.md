@@ -14,25 +14,27 @@
 | ` cp   ` | Coppy file |
 | ` mv`   | Move file|
 | ` chmod  ` | Change permissions of a file |
-
-## Operating with the content of files
-
-| Command | Description |
-| --- | --- |
-| `cat `   | Show contents of files|
-| `wc`   | Counts the amount of characters, words, and lines in a file|
-| `head` | Show the first 10 lines of a file |
-| `tail` | Show the last 10 lines of a file |
-| `grep `   | Find pattern in file|
-| `cut `   | Extracts a given number of characters or columns from a file|
-
-### Chmod options: 
+#### Chmod options: 
 <ul>
   <li> chmod -x : Make file executable </li>
   <li> chmod -r : Make file readable </li>
   <li> chmod -w : Make file writable  </li>
    <li> chmod -rwx : All of the above  </li>
 </ul>
+
+
+## Operating with the content of files
+
+| Command | Description |
+| --- | --- |
+| `file ` file.txt| prints tpye of given file |
+| `cat `   file.txt| Show contents of files|
+| `wc`  file.txt | Counts the amount of characters, words, and lines in a file|
+| `head` file.txt| Show the first 10 lines of a file |
+| `tail`file.txt | Show the last 10 lines of a file |
+| `grep ` file.txt  | Find pattern in file|
+| `cut `   file.txt| Extracts a given number of characters or columns from a file|
+
 
 
 
