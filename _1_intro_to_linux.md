@@ -34,13 +34,22 @@
 
 ### SIGNALS:
 Singals are tokens that allows us to control the behaviour of a program
-| Command | Description |
-| --- | --- |
-| `ctrl + c`| Termiantes a process properly|
-| `ctrl + z`| Stop a process|
-| `fg`| restarst stoped processes|
-  
 ###### SPECIAL Signal :
 kill is a specila signal, in has to be run from another therminal, therefore
 you need the Process Identifier (PID) to be able to stop the process:
 To find the PID you can use the `ps` comand 
+
+### SIGNALS + PROCESSES:
+
+| Command | Description |
+| --- | --- |
+| `ps`   | Lists the processes executing in the current terminal for the current user|
+| `ps ax`   | Lists all processes currently executing for all users|
+| `ps e`   | Shows the environment for the processes listed|
+| `kill PID`   | Sends the SIGTERM signal to the process identified by PID|
+| `ctrl + c`| Termiantes a process properly|
+| `ctrl + z`| Stop a process|
+| `fg`   | causes a job that was stopped or in the background to return to the foreground|
+| `bg ` |causes a job that was stopped to go to the background|
+| `jobs `   |lists the jobs currently running or stopped|
+| `top`   |shows the processes currently using the most CPU time (press "q" to quit)|
