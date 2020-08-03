@@ -4,6 +4,8 @@
 | --- | --- |
 | ` echo ` | Prints messege in terminal|
 | `cat `   | Show contents of files|
+| `grep `   | Find pattern in file|
+| `cut `   | Extracts a given number of characters or columns from a file|
 | `ls  `   | Lists files in Directory|
 | ` chmod  ` | Change permissions of a file |
 | `mkdir`   | Create new Directory|
@@ -14,8 +16,13 @@
 | ` mv`   | Move file|
 | `touch `   | Create an empty file|
 
-### REDIRECTION:  
-PROCESS OF SENDING A STREAM TO A DIFFERENT DESTIANTION  <br>
+### Linux I/O Redirection:  
+Redirection is defined as switching standard streams of data from either a user-specified source or user-specified destination. Here are the following streams used in I/O redirection:
+<ul>
+  <li> Redirection into a file using > </li>
+  <li> Append using >> </li>
+</ul>
+
 EXAMPLE: <br>
 `./STDout.py > new_file.txt` <br>
 If file does not exist it will be created, if exists it will be overwritten, 
