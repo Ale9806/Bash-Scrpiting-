@@ -2,19 +2,32 @@
 
 | Command | Description |
 | --- | --- |
+| `pwd   `   | Print working directory|
+| `ls  `   | Lists files in Directory|
+| `ls -l `   | Lists files in Directory with permission information|
+| `ls -a`   | Lists all files including those hidden|
+| `cd `   | Change Directory|
 | ` echo ` | Prints messege in terminal|
 | `cat `   | Show contents of files|
+| `wc`   | Counts the amount of characters, words, and lines in a file|
+| `head` | Show the first 10 lines of a file |
+| `tail` | Show the last 10 lines of a file |
 | `grep `   | Find pattern in file|
 | `cut `   | Extracts a given number of characters or columns from a file|
-| `ls  `   | Lists files in Directory|
-| ` chmod  ` | Change permissions of a file |
+| `touch `   | Create an empty file|
 | `mkdir`   | Create new Directory|
 | `rmdir `   | emove empty Directory|
-| `cd `   | Change Directory|
-| `pwd   `   | Print working directory|
 | ` cp   ` | Coppy file |
 | ` mv`   | Move file|
-| `touch `   | Create an empty file|
+| ` chmod  ` | Change permissions of a file |
+### Chmod options: 
+<ul>
+  <li> chmod -x : Make file executable </li>
+  <li> chmod -r : Make file readable </li>
+  <li> chmod -w : Make file writable  </li>
+   <li> chmod -rwx : All of the above  </li>
+</ul>
+
 
 ### Linux I/O Redirection:  
 Redirection is defined as switching standard streams of data from either a user-specified source or user-specified destination. Here are the following streams used in I/O redirection:
